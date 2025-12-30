@@ -2,3 +2,11 @@ path="sheet/"
 target = "sid_meier.json"
 encode="utf-8"
 EXPIRE=18000
+
+[rich]
+welecome="welecome redis sheet"
+
+[parser]
+target_key="goods"
+attr=["type","effect"]
+repr="%goods %type up %effect"

@@ -36,6 +36,9 @@ class ModelRepository:
         )
         self._client = redis.Redis(connection_pool=pool)
         logging.info("Connected to Redis")
+    def _load_data(self):
+        sets=json_loader['indexs']
+        hashes=json_loader['data']
 class ModelService:
     def __init__(self, repository: ModelRepository):
         self.repo = repository
