@@ -1,0 +1,16 @@
+{
+    "metadata": {
+        "title": "sid meier",
+        "updated": "2025-12-30T10:00:00Z"
+    },
+    "indexes": {
+        "goods": [
+            "琥珀"
+        ]
+    },
+    "data": {
+        "琥珀": {
+            "effect": "+25%  信仰值收益。"
+        }
+    }
+}

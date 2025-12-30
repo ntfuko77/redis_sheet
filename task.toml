@@ -1,2 +1,4 @@
 path="sheet/"
 target = "sid_meier.json"
+encode="utf-8"
+EXPIRE=18000
