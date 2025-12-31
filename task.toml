@@ -6,7 +6,7 @@ EXPIRE=18000
 [rich]
 welecome="welecome redis sheet"
 
-[parser]
+[parser_config]
 target_key="goods"
 attr=["type","effect"]
 repr="%goods %type up %effect"
